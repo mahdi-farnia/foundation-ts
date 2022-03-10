@@ -1,0 +1,27 @@
+{
+  "include": ["src", "lib"],
+  "exclude": ["test"],
+  "compilerOptions": {
+    "incremental": true /* Enable incremental compilation */,
+    "tsBuildInfoFile": "./" /* Specify the folder for .tsbuildinfo incremental compilation files. */,
+    "target": "es5" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ] /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
+    "experimentalDecorators": true /* Enable experimental support for TC39 stage 2 draft decorators. */,
+    "module": "esnext" /* Specify what module code is generated. */,
+    "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
+    "noEmit": true /* Disable emitting files from a compilation. */,
+    "isolatedModules": true /* Ensure that each file can be safely transpiled without relying on other imports. */,
+    "allowSyntheticDefaultImports": true /* Allow 'import x from y' when a module doesn't have a default export. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "strict": true /* Enable all strict type-checking options. */,
+    "strictPropertyInitialization": true /* Check for class properties that are declared but not set in the constructor. */,
+    "noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an override modifier. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "downlevelIteration": true
+  }
+}
