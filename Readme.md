@@ -11,6 +11,7 @@ This package is implementation of swift Ui Foundation for typescript.
     - [IBOutlet: Interface Builder Outlet](#iboutlet-interface-builder-outlet)
     - [Main](#main)
     - [Objc](#objc)
+- [License](#license)
 
 ## Annotators
 
@@ -103,3 +104,7 @@ class App extends UIViewController {
   }
 }
 ```
+
+# License
+
+This project is licensed under the MIT license.
