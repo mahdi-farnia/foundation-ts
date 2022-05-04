@@ -94,12 +94,9 @@ class App extends UIViewController {
     document.addEventListener('DOMContentLoaded', this.greet);
   }
 
-  @objc greet(e: Event, method: Function) {
+  @objc greet(e: Event) {
     console.log(`Hello ${this.name}`);
 
-    document.removeEventListener('DOMContentLoaded', method);
-
-    // Will NOT work!
     document.removeEventListener('DOMContentLoaded', this.greet);
   }
 }
